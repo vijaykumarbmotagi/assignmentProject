@@ -1,0 +1,65 @@
+<div class="mainBg">
+
+    <div class="mainCard">
+        <div  class="firstHalf">
+            <img class="leftImg" src="assets\image\images.jfif" alt="">
+        </div>
+        <div class="secondHalf">
+            <div class="header">
+                <button class="mainBtn">Login</button>
+
+                <button mat-flat-button>Register</button> 
+            </div>
+
+            <div class="wel">
+                <span>Welcome</span>
+            </div>
+            <div class="pls">
+                <span>Please login to your account</span>
+            </div>
+            <div class="field">
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input matInput type="email" required name="email" [(ngModel)]="email">
+                  </mat-form-field>
+            </div>
+            <div class="field">
+                <mat-form-field>
+                    <mat-label>Password</mat-label>
+                    <input matInput type="password" required name="password" [(ngModel)]="password">
+                  </mat-form-field>
+            </div>
+
+            <div class="click">
+                <button mat-flat-button>Forgot Password</button> 
+                <button class="mainBtn" (click)="onSubmit()">Ok</button>
+            </div>
+        </div>
+
+
+        <div>
+        </div>
+    </div>
+
+</div>
+
+<!-- <mat-card class="login-card">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+        <mat-form-field appearance="fill">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" required name="email" ngModel>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" required name="password" ngModel>
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary" type="submit">Login</button>
+      </form>
+    </mat-card-content>
+  </mat-card> -->

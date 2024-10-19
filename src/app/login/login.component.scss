@@ -1,0 +1,63 @@
+.mainCard{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: flex;
+}
+.mainBg{
+    background-color: aqua;
+}
+.firstHalf{
+    width: 60%;
+}
+.secondHalf{
+    width: 40%;
+}
+.leftImg{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.mainBtn{
+    width: 120px;
+    background-color: #ffff00;
+    border: 0;
+    border-radius: 50px;
+    height: 32px;
+    cursor: pointer;
+}
+.header{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.wel{
+    padding-left: 70px;
+    font-size: 50px;
+    font-family: pop;
+}
+
+.pls{
+    padding-left: 75px;
+}
+
+.field{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.click{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-card {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+  }
